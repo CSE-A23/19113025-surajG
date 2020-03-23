@@ -8,7 +8,22 @@
 3A. If virtual keyword is not used then the child class will get two copies of data members from parent class.
     This type of inheritance is very ambiguous.
 
-    The problem that arises when using multipath inheritance refers to a derived class having more than one parent class that 
-    defines property or methods with the same name. 
+    The problem that arises when using multipath inheritance refers to a derived class having more than one
+    parent class that  defines property or methods with the same name. 
 
-    
+4A. 
+    A pure virtual function is a function that must be overridden in a derived class and need not be defined.
+    A virtual function is declared to be “pure” using the curious =0 syntax.
+
+
+   For example:
+
+    class Base {
+    public:
+        void f1();      // not virtual
+        virtual void f2();  // virtual, not pure
+        virtual void f3() = 0;  // pure virtual
+    };
+    Base b;
+
+5A. 
