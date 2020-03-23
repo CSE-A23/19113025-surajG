@@ -1,0 +1,6 @@
+1A. 1. sizeof (object size information)
+    2.typeid (object type information)
+    3.static_cast 
+    4.dot operator(.)
+
+2A.
