@@ -5,4 +5,6 @@
 
 2A. Error in compiling 
 
-3A. 
+3A. If virtual keyword is not used then the child class will get two copies of data members from parent class.
+    This type of inheritance is very ambiguous.
+
