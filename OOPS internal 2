@@ -149,4 +149,8 @@ Program:
     Derived d(10);
   }
 
-9A. 
+9A. Runtime polymorphism is also known as dynamic polymorphism or late binding.
+    In runtime polymorphism, the function call is resolved at run time. In contrast, to compile time or static polymorphism,
+    the compiler deduces the object at run time and then decides which function call to bind to the object.
+    In C++, runtime polymorphism is implemented using method overriding.
+    
